@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>PU Cafe</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <style>
+            *{
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body background="./Image/bg.png" style="background-size: cover;">
+        <header>
+            <a href="./PU Cafe.html"><img id="logo" src="./Image/logo.png" height="80px" width="300px"/></a>
+            <p id="nav">
+                <a href="about.html"><button id="about">About Us</button></a>
+                <a href="menu.html"><button id="menu">Menu</button></a>
+                <a href="https://maps.app.goo.gl/RoyaSmfahDKcqzzk9" target="_blank"><button id="location">Location</button></a>
+                <a href="reviews.html"><button id="reviews">Reviews</button></a>
+                <a href="order.html"><button id="order">Order Now</button></a>
+                <a href="contact.html"><button id="contact">Contact Us</button></a>
+            </p>
+        </header>
+        <section id="review">
+                <form class="form" action="">
+                    <span id="name">Name:</span>
+                    <input id="namein" type="text" placeholder="Enter Name" required><br><br>
+                    <font id="number">Mobile Number:</font>
+                    <input id="numin" type="num" placeholder="Enter Number" minlength="10" required><br><br>
+                    <span id="email">E-Mail ID:</span>
+                    <input id="mailin" type="email" placeholder="Enter E-Mail" required><br><br>
+                    <span id="review1">Your Order:</span>
+                    <input type="text" placeholder="Enter Order" id="reviewin" required><br><br>
+                    <button type="submit" id="submit">Submit</button><br><br><br>
+                </form>
+        </section>
+    </body>
+</html>
